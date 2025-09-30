@@ -1,0 +1,74 @@
+/* Navbar container: left and right divs on the edges */
+.navbar-container {
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: space-between; /* left stays left, right stays right */
+  align-items: center;
+  width: 100%; 
+  box-sizing: border-box;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  font-weight: 600;
+}
+
+/* Left side: Name + Links */
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem; /* space between name and links */
+}
+
+/* Site name */
+.site-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+
+/* Navbar links */
+.navbar-links {
+  display: flex;
+  align-items: center;
+  gap: 1rem; /* space between links */
+}
+
+.navbar-links a {
+  color: black;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.navbar-links a:hover,
+.navbar-links a.active {
+  color: #3b82f6;
+}
+
+/* Right side: Social icons */
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem; /* space between icons */
+  font-size: 1.5rem;
+}
+
+.navbar-right {
+    color: black;
+}
+
+/* Social icon hover colors */
+.navbar-right a.instagram:hover {
+  color: #e1306c;
+}
+
+.navbar-right a.linkedin:hover {
+  color: #0a66c2;
+}
+
+.navbar-right a.github:hover {
+  color: #171515;
+}

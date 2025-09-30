@@ -1,10 +1,26 @@
 import React from "react";
+import Kelly from "../images/kelly.jpg";
+import TypingText from "../components/TypingText";
+import "../styles/Home.css";
 
 function Home() {
   return (
-    <div style={{ padding: "2rem" }}>
-      <h1>About Me</h1>
-      <p>Hi! Welcome to my personal website. This is where I share my activities and projects.</p>
+    <div className="home-container">
+      <h2>
+        <TypingText text="Hi, I'm Kelly Jia!" speed={120} />
+      </h2>
+      <div className="side-by-side">
+        <img src={Kelly} width="400" height="500" alt="Kelly" />
+        <p>
+          I’m a freshman at UCLA studying Mathematics of Computation from the Bay Area. My
+          interest in computer science began with a Taylor Swift fan page I built using
+          HTML/CSS, and has since expanded to full-stack development and machine learning
+          object detection. My research interests include leveraging large-scale medical data
+          to train models that improve early detection of pancreatic cancer. I’m passionate
+          about creating impactful solutions—check out my Activities and Projects/Work tabs to see
+          what I’ve been working on!
+        </p>
+      </div>
     </div>
   );
 }

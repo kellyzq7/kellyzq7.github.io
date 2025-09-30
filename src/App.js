@@ -4,15 +4,18 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Activities from "./pages/Activities";
 import Projects from "./pages/Projects";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+import "./styles/App.css"
 
 function App() {
   return (
-    <Router basename="/">
+    <Router>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/activities" element={<Activities />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/activities" element={<Activities />} />
       </Routes>
     </Router>
   );

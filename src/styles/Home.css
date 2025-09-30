@@ -1,0 +1,23 @@
+.home-container {
+  width: 800px;
+  margin: 20px auto; /* centers the whole thing */
+  text-align: center;
+}
+
+.side-by-side {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  text-align: left; /* so the paragraph aligns normally */
+}
+
+.side-by-side img {
+  border-radius: 30px;
+  object-fit: cover;
+}
+
+.side-by-side p {
+  flex: 1; /* paragraph fills remaining space */
+  font-size: 1rem;
+  line-height: 1.5;
+}
