@@ -1,53 +1,58 @@
-// ActivitiesPage.js
 import React from "react";
-import Card from "../components/Card";
-import "../styles/Activities.css";
+import "../styles/Projects.css";
 import TypingText from "../components/TypingText";
+import Skystone from "../images/skystone.png";
+import MYND from "../images/mynd.png";
+import RPG from "../images/rpg.png";
+import Marchup from "../images/Marchup.png";
+import PetMap from "../images/petmap.png";
 
-const ActivitiesPage = () => {
-  const activities = [
-    {
-      title: "Marchup Software Development Intern",
-      description: "This is a description for Activity 1.",
-      images: ["/images/act1-1.jpg", "/images/act1-2.jpg", "/images/act1-3.jpg"],
-    },
-    {
-      title: "PetMap Software Engineer",
-      description: "This is a description for Activity 2.",
-      images: ["/images/act2-1.jpg", "/images/act2-2.jpg", "/images/act2-3.jpg"],
-    },
-    {
-      title: "Skystone Object Detection",
-      description: "This is a description for Activity 2.",
-      images: ["/images/act2-1.jpg", "/images/act2-2.jpg", "/images/act2-3.jpg"],
-    },
-    {
-      title: "MYND App",
-      description: "This is a description for Activity 2.",
-      images: ["/images/act2-1.jpg", "/images/act2-2.jpg", "/images/act2-3.jpg"],
-    },
-    {
-      title: "Cul Cavboj",
-      description: "This is a description for Activity 2.",
-      images: ["/images/act2-1.jpg", "/images/act2-2.jpg", "/images/act2-3.jpg"],
-    },
-  ];
 
+const projectsData = [
+  {
+    title: "Skystone Object Detection",
+    description: "This is a short description of Project 1. Replace with your own text.",
+    image: Skystone,
+  },
+  {
+    title: "MYND App",
+    description: "devpost: https://devpost.com/software/mynd, youtube tutorial: https://youtu.be/f8FpH8RRE-0",
+    image: MYND,
+  },
+  {
+    title: "Cul Cavboj",
+    description: "This is a short description of Project 3. Replace with your own text.",
+    image: RPG,
+  },
+  {
+    title: "Marchup Software Development Intern",
+    description: "This is a short description of Project 4. Replace with your own text.",
+    image: Marchup,
+  },
+  {
+    title: "PetMap Software Engineer",
+    description: "This is a short description of Project 4. Replace with your own text.",
+    image: PetMap,
+  },
+];
+
+function Projects() {
   return (
-    <div>
-      <h2>
+    <div className="projects-page">
+      <h3>
         <TypingText text="Projects / W*rk" speed={120} />
-      </h2>
-      {activities.map((act, index) => (
-        <Card
-          key={index}
-          title={act.title}
-          description={act.description}
-          images={act.images}
-        />
-      ))}
+      </h3>
+      <div className="projects-grid">
+        {projectsData.map((project, index) => (
+          <div key={index} className="project-card">
+            <h2 className="project-card-title">{project.title}</h2>
+            <img src={project.image} alt={project.title} className="project-image" />
+            <p className="project-description">{project.description}</p>
+          </div>
+        ))}
+      </div>
     </div>
   );
-};
+}
 
-export default ActivitiesPage;
+export default Projects;

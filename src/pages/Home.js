@@ -19,6 +19,8 @@ function Home() {
           to train models that improve early detection of pancreatic cancer. I’m passionate
           about creating impactful solutions—check out my Activities and Projects/Work tabs to see
           what I’ve been working on!
+          <br /><br />
+          kellyjia@g.ucla.edu
         </p>
       </div>
     </div>

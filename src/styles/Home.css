@@ -1,6 +1,6 @@
 .home-container {
-  width: 800px;
-  margin: 20px auto; /* centers the whole thing */
+  width: 900px;
+  margin: 40px auto; /* centers the whole thing */
   text-align: center;
 }
 
@@ -18,6 +18,6 @@
 
 .side-by-side p {
   flex: 1; /* paragraph fills remaining space */
-  font-size: 1rem;
+  font-size: 1.4rem;
   line-height: 1.5;
 }

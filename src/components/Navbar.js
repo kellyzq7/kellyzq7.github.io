@@ -10,10 +10,9 @@ const Navbar = () => {
   return (
         <div className="navbar-container">
             <div className="navbar-left">
-                <Link to="/" className="site-name">Kelly Jia</Link>
                 <div className="navbar-links">
                     <Link to="/" className={getIsActive("/") ? "active" : ""}>About</Link>
-                    <Link to="/projects" className={getIsActive("/projects") ? "active" : ""}>Projects / Work</Link>
+                    <Link to="/projects" className={getIsActive("/projects") ? "active" : ""}>Projects/Work</Link>
                     <Link to="/activities" className={getIsActive("/activities") ? "active" : ""}>Activities</Link>
                 </div>
             </div>
