@@ -13,7 +13,7 @@ const projectsData = [
     title: "Skystone Object Detection",
     description: (
       <>
-        My first taste of computer vision with Tensorflow. I had to work on a tight schedule and was still able to train and optimize my model from 24% → 99% accuracy. Read my documentation <a href="https://drive.google.com/file/d/1dIvna5Zl8rmwxJZTFrPbT5ubQsGd5Kkq/view?usp=sharing">here</a>.
+        My first taste of computer vision with Tensorflow. I had to work on a tight schedule and was still able to train and optimize my model from 24% → 99% accuracy. Read my documentation <a href="https://drive.google.com/file/d/1dIvna5Zl8rmwxJZTFrPbT5ubQsGd5Kkq/view?usp=sharing" target="_blank">here</a>.
       </>
     ),
     image: Skystone,
@@ -22,7 +22,7 @@ const projectsData = [
     title: "MYND App",
     description: (
       <>
-        I learned Swift to built MYND and won First Place Overall and Best Social Good Hack (+ got cool gaming headsets). I had no previous experience in app dev or Swift. Check out my Github and watch my Youtube demo <a href="https://youtu.be/f8FpH8RRE-0">here</a>! 
+        I learned Swift to built MYND and won First Place Overall and Best Social Good Hack (+ got cool gaming headsets). I had no previous experience in app dev or Swift. Check out my Github and watch my Youtube demo <a href="https://youtu.be/f8FpH8RRE-0" target="_blank">here</a>! 
       </>
     ),
     image: MYND,
@@ -36,7 +36,7 @@ const projectsData = [
     title: "Cul Cavboj",
     description: (
       <>
-      Cul Cavboj is Cool Cowboy in Slovenian. I designed and developed this western RPG game with PHP, SQL, Javascript. Check out our design doc <a href="https://www.figma.com/design/E428dlZTBMUQJVW9EgckHb/AIC-P2-Design-Document?node-id=0-1&t=zqBKkPAcrfEP8xnU-1">here</a> and my Github to see more!
+      Cul Cavboj is Cool Cowboy in Slovenian. I designed and developed this western RPG game with PHP, SQL, Javascript. Check out our design doc <a href="https://www.figma.com/design/E428dlZTBMUQJVW9EgckHb/AIC-P2-Design-Document?node-id=0-1&t=zqBKkPAcrfEP8xnU-1" target="_blank">here</a> and my Github to see more!
       </>
     ),
     image: RPG,

@@ -54,7 +54,7 @@ const ActivitiesPage = () => {
       title: "Associated Student Government VP",
       description: (
       <>
-      Throughout my time as Sophomore and Junior Class Officer then Student Body Vice President, I probably spent 500+ hours on homecoming decorations and finessed my way to $1,000+ worth of free materials like paint. <br /><br /> <b>Highlight:</b> Winning First Place as juniors, a historic victory over the senior class.
+      Throughout my time as Sophomore and Junior Class Officer then Student Body Vice President, I spent 300+ hours on homecoming decorations and finessed my way to $1,000+ worth of free materials like paint. <br /><br /> <b>Highlight:</b> Winning First Place as juniors, a historic victory over the senior class.
       </>
       ),
       images: [ASG1, ASG2, ASG3],
