@@ -3,10 +3,9 @@
   width: 90%;
   max-width: 1200px;
   margin: 2rem auto;
-  height: 600px; /* adjust based on how many items and layout */
+  height: 600px; 
 }
 
-/* Basic card styling */
 .collage-card {
   position: absolute;
   border-radius: 12px;
@@ -29,13 +28,11 @@
   color: #333;
 }
 
-/* Hover effect */
 .collage-card:hover {
   transform: translateY(-10px) rotate(-2deg);
-  box-shadow: 0px 6px 20px rgba(59,130,246,0.5); /* blue shadow on hover */
+  box-shadow: 0px 6px 20px rgba(59,130,246,0.5); 
 }
 
-/* Example positions for a fun overlapping effect */
 .card-0 { top: 0; left: 0; width: 220px; z-index: 1; }
 .card-1 { top: 50px; left: 180px; width: 250px; z-index: 2; transform: rotate(-3deg); }
 .card-2 { top: 120px; left: 100px; width: 180px; z-index: 3; transform: rotate(2deg); }
