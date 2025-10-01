@@ -14,7 +14,6 @@ const Navbar = () => {
                     <Link to="/" className={getIsActive("/") ? "active" : ""}>About</Link>
                     <Link to="/projects" className={getIsActive("/projects") ? "active" : ""}>Projects/Work</Link>
                     <Link to="/activities" className={getIsActive("/activities") ? "active" : ""}>Activities</Link>
-                    <Link to="/extras" className={getIsActive("/extras") ? "active" : ""}>Extras</Link>
                 </div>
             </div>
 
