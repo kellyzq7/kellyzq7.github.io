@@ -1,0 +1,44 @@
+.collage-container {
+  position: relative;
+  width: 90%;
+  max-width: 1200px;
+  margin: 2rem auto;
+  height: 600px; /* adjust based on how many items and layout */
+}
+
+/* Basic card styling */
+.collage-card {
+  position: absolute;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-align: center;
+  background: white;
+}
+
+.collage-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.collage-card p {
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+/* Hover effect */
+.collage-card:hover {
+  transform: translateY(-10px) rotate(-2deg);
+  box-shadow: 0px 6px 20px rgba(59,130,246,0.5); /* blue shadow on hover */
+}
+
+/* Example positions for a fun overlapping effect */
+.card-0 { top: 0; left: 0; width: 220px; z-index: 1; }
+.card-1 { top: 50px; left: 180px; width: 250px; z-index: 2; transform: rotate(-3deg); }
+.card-2 { top: 120px; left: 100px; width: 180px; z-index: 3; transform: rotate(2deg); }
+.card-3 { top: 250px; left: 250px; width: 200px; z-index: 4; transform: rotate(-1deg); }
+.card-4 { top: 350px; left: 50px; width: 180px; z-index: 5; transform: rotate(3deg); }
+.card-5 { top: 400px; left: 220px; width: 220px; z-index: 6; transform: rotate(-2deg); }

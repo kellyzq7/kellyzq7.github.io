@@ -1,5 +1,6 @@
 .home-container {
-  width: 900px;
+  width: 90%;
+  box-sizing: border-box;
   margin: 40px auto; /* centers the whole thing */
   text-align: center;
 }
@@ -7,6 +8,7 @@
 .side-by-side {
   display: flex;
   gap: 50px;
+  margin-top: 20px;
   align-items: center;
   text-align: left; /* so the paragraph aligns normally */
 }
@@ -20,4 +22,5 @@
   flex: 1; /* paragraph fills remaining space */
   font-size: 1.4rem;
   line-height: 1.5;
+  text-align: center;
 }

@@ -11,27 +11,35 @@ import PetMap from "../images/petmap.png";
 const projectsData = [
   {
     title: "Skystone Object Detection",
-    description: "This is a short description of Project 1. Replace with your own text.",
+    description: (
+      <>
+        My first taste of computer vision with Tensorflow. I had to work on a tight schedule and was still able to train and optimize my model from 24% → 99% accuracy. 
+      </>
+    ),
     image: Skystone,
   },
   {
     title: "MYND App",
-    description: "devpost: https://devpost.com/software/mynd, youtube tutorial: https://youtu.be/f8FpH8RRE-0",
+    description: (
+      <>
+        I locked in and, with no prior experience, learned Swift and built <a href="https://youtu.be/f8FpH8RRE-0" target="_blank" rel="noreferrer">MYND</a> through the course of this virtual hackathon and won First Place Overall and Best Social Good Hack. (I won cool gaming headsets but I don't game). 
+      </>
+    ),
     image: MYND,
   },
   {
-    title: "Cul Cavboj",
-    description: "This is a short description of Project 3. Replace with your own text.",
-    image: RPG,
-  },
-  {
     title: "Marchup Software Development Intern",
-    description: "This is a short description of Project 4. Replace with your own text.",
+    description: "My first internship! I learned so much this summer working in a professional environment. I strengthened PHP skills and used the Yii 2.0 framework. It was very fulfilling to see my work reflected in the product. I also helped the CEO Harsh with his startup outreach and partnerships - went to a conference at the MLK Library in San Jose.",
     image: Marchup,
   },
   {
+    title: "Cul Cavboj",
+    description: "Cul Cavboj is Cool Cowboy in Slovenian. I designed and developed this western RPG game with PHP, SQL, Javascript. Check out my Github to see more!",
+    image: RPG,
+  },
+  {
     title: "PetMap Software Engineer",
-    description: "This is a short description of Project 4. Replace with your own text.",
+    description: "I'm currently working on a startup founded by UCSD grads. Besides technical skills, I've learned a lot about the product development process as we build this from the ground up.",
     image: PetMap,
   },
 ];
@@ -46,8 +54,8 @@ function Projects() {
         {projectsData.map((project, index) => (
           <div key={index} className="project-card">
             <h2 className="project-card-title">{project.title}</h2>
-            <img src={project.image} alt={project.title} className="project-image" />
             <p className="project-description">{project.description}</p>
+            <img src={project.image} alt={project.title} className="project-image" />
           </div>
         ))}
       </div>

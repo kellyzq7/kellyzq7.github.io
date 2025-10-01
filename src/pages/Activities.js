@@ -25,33 +25,57 @@ import ATDP3 from "../images/atdp3.jpg";
 const ActivitiesPage = () => {
   const activities = [
     {
-      title: "Viking Hacks 2025 and 2024",
-      description: "I founded and MC’d Irvington High School’s first student-run hackathon, securing $10,000+ in sponsorships from organizations like Palo Alto Networks, LaunchX, and Art of Problem Solving to keep the event free. I also organized logistics for 200+ participants, arranged guest speakers, and helped debug during the 9-hour hacking sessions.",
+      title: "Viking Hacks Founder",
+      description: (
+      <>
+      2/15/25 and 2/10/24 | We had 5 months and a dream. After dozens of cold emails for money, judges, workshop mentors, we pulled off Irvington's first ever hackathon. 16 hours of building, free food, guest speakers. <br /><br /> <b>Highlight:</b> Stalling the closing ceremony for final judging score tallies with a motivational speech and CS jokes.
+      </>
+      ),
       images: [VH1, VH2, VH3],
     },
     {
-      title: "Ohlone Hacks 2024",
-      description: "This is a description for Activity 2.",
+      title: "Ohlone Hacks 2024 Lead Organizer",
+      description: (
+      <>
+      4/14/24 | College kids (Associated Students of Ohlone College) came to us for help to revive their annual Ohlone Hacks hackathon after the success of Viking Hacks 2024. <br /><br /> <b>Highlight:</b> Networking with our sponsors like Marchup and dabbL.ai and learning more about their company. I landed my internship at Marchup through this.
+      </>
+      ),
       images: [OH1, OH2, OH3],
     },
     {
-      title: "Associated Student Government",
-      description: "This is a description for Activity 2.",
-      images: [ASG1, ASG2, ASG3],
-    },
-    {
       title: "Math Club",
-      description: "This is a description for Activity 2.",
+      description: (
+      <>
+      Humble Beginnings: I started as Publicity Officer then worked my way up to President. Maybe it was my stellar leadership skills, but more so the fact that I loved Math Club like my firstborn child and did everything I could to watch it succeed (2x followers, 3x members) <br /><br /> <b>Highlight:</b> Pi Day Parties or my Drunk Calculus lecture series.
+      </>
+      ),
       images: [MC1, MC2, MC3],
     },
     {
+      title: "Associated Student Government",
+      description: (
+      <>
+      Throughout my time as Sophomore and Junior Class Officer then Student Body Vice President, I probably spent 500+ hours on homecoming decorations and finessed my way to $500+ worth of free materials like paint. <br /><br /> <b>Highlight:</b> Winning First Place as juniors, a historic victory over the senior class.
+      </>
+      ),
+      images: [ASG1, ASG2, ASG3],
+    },
+    {
       title: "Book Club",
-      description: "This is a description for Activity 2.",
+      description: (
+      <>
+      Book Club is my firstborn child. I created it November of my freshman year of high school to foster a community of bookworms on campus and it has grown into a club of 138+ more than I could have ever hoped. <br /><br /> <b>Highlight:</b> Shipping our Holiday Book Drive books out to the kids who need it most.
+      </>
+      ),
       images: [BC1, BC2, BC3],
     },
     {
-      title: "Berkeley ATDP",
-      description: "This is a description for Activity 2.",
+      title: "Berkeley ATDP TA",
+      description: (
+      <>
+      Ever since I was a web design student I always thought it would be so cool to be a TA...so I became one. TAing for web design and web dev made those summers the best ever. <br /><br /> <b>Highlight:</b> Becoming besties with my all girl group or watching Stranger Things Season 4 with the other TAs on my birthday",
+      </>
+      ),
       images: [ATDP1, ATDP2, ATDP3],
     },
   ];
