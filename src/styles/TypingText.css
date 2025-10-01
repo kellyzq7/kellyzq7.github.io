@@ -1,0 +1,19 @@
+.typing-container {
+  display: inline-flex;
+  align-items: center;
+}
+
+.cursor {
+  display: inline-block;
+  width: 5px;
+  height: 1.0em;
+  background: black;
+  margin-left: 20px;
+  animation: blink 1.0s steps(1) infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}

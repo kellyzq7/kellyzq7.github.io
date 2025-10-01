@@ -4,7 +4,7 @@ import TypingText from "../components/TypingText";
 import Skystone from "../images/skystone.png";
 import MYND from "../images/mynd.png";
 import RPG from "../images/rpg.png";
-import Marchup from "../images/Marchup.png";
+import Marchup from "../images/Marchup2.png";
 import PetMap from "../images/petmap.png";
 
 
@@ -13,7 +13,7 @@ const projectsData = [
     title: "Skystone Object Detection",
     description: (
       <>
-        My first taste of computer vision with Tensorflow. I had to work on a tight schedule and was still able to train and optimize my model from 24% → 99% accuracy. 
+        My first taste of computer vision with Tensorflow. I had to work on a tight schedule and was still able to train and optimize my model from 24% → 99% accuracy. Read my documentation <a href="https://drive.google.com/file/d/1dIvna5Zl8rmwxJZTFrPbT5ubQsGd5Kkq/view?usp=sharing">here</a>.
       </>
     ),
     image: Skystone,
@@ -22,19 +22,23 @@ const projectsData = [
     title: "MYND App",
     description: (
       <>
-        I locked in and, with no prior experience, learned Swift and built <a href="https://youtu.be/f8FpH8RRE-0" target="_blank" rel="noreferrer">MYND</a> through the course of this virtual hackathon and won First Place Overall and Best Social Good Hack. (I won cool gaming headsets but I don't game). 
+        I learned Swift to built MYND and won First Place Overall and Best Social Good Hack (+ got cool gaming headsets). I had no previous experience in app dev or Swift. Check out my Github and watch my Youtube demo <a href="https://youtu.be/f8FpH8RRE-0">here</a>! 
       </>
     ),
     image: MYND,
   },
   {
     title: "Marchup Software Development Intern",
-    description: "My first internship! I learned so much this summer working in a professional environment. I strengthened PHP skills and used the Yii 2.0 framework. It was very fulfilling to see my work reflected in the product. I also helped the CEO Harsh with his startup outreach and partnerships - went to a conference at the MLK Library in San Jose.",
+    description: "My first internship! I learned so much this summer, working in PHP Yii 2.0, SQL, Javascript. It was very fulfilling to see my work reflected in the product. I also helped the CEO Harsh with startup outreach events.",
     image: Marchup,
   },
   {
     title: "Cul Cavboj",
-    description: "Cul Cavboj is Cool Cowboy in Slovenian. I designed and developed this western RPG game with PHP, SQL, Javascript. Check out my Github to see more!",
+    description: (
+      <>
+      Cul Cavboj is Cool Cowboy in Slovenian. I designed and developed this western RPG game with PHP, SQL, Javascript. Check out our design doc <a href="https://www.figma.com/design/E428dlZTBMUQJVW9EgckHb/AIC-P2-Design-Document?node-id=0-1&t=zqBKkPAcrfEP8xnU-1">here</a> and my Github to see more!
+      </>
+    ),
     image: RPG,
   },
   {

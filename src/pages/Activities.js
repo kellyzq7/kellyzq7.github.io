@@ -28,7 +28,7 @@ const ActivitiesPage = () => {
       title: "Viking Hacks Founder",
       description: (
       <>
-      2/15/25 and 2/10/24 | We had 5 months and a dream. After dozens of cold emails for money, judges, workshop mentors, we pulled off Irvington's first ever hackathon. 16 hours of building, free food, guest speakers. <br /><br /> <b>Highlight:</b> Stalling the closing ceremony for final judging score tallies with a motivational speech and CS jokes.
+      2/15/25 and 2/10/24 | We had 5 months and a dream. After dozens of cold emails for money, judges, workshop mentors, we pulled off Irvington's <b>first</b> ever hackathon. 16 hours of building, free food, guest speakers. <br /><br /> <b>Highlight:</b> Stalling the closing ceremony for final judging score tallies with a motivational speech and CS jokes.
       </>
       ),
       images: [VH1, VH2, VH3],
@@ -43,7 +43,7 @@ const ActivitiesPage = () => {
       images: [OH1, OH2, OH3],
     },
     {
-      title: "Math Club",
+      title: "Math Club President",
       description: (
       <>
       Humble Beginnings: I started as Publicity Officer then worked my way up to President. Maybe it was my stellar leadership skills, but more so the fact that I loved Math Club like my firstborn child and did everything I could to watch it succeed (2x followers, 3x members) <br /><br /> <b>Highlight:</b> Pi Day Parties or my Drunk Calculus lecture series.
@@ -52,16 +52,16 @@ const ActivitiesPage = () => {
       images: [MC1, MC2, MC3],
     },
     {
-      title: "Associated Student Government",
+      title: "Associated Student Government VP",
       description: (
       <>
-      Throughout my time as Sophomore and Junior Class Officer then Student Body Vice President, I probably spent 500+ hours on homecoming decorations and finessed my way to $500+ worth of free materials like paint. <br /><br /> <b>Highlight:</b> Winning First Place as juniors, a historic victory over the senior class.
+      Throughout my time as Sophomore and Junior Class Officer then Student Body Vice President, I probably spent 500+ hours on homecoming decorations and finessed my way to $1,000+ worth of free materials like paint. <br /><br /> <b>Highlight:</b> Winning First Place as juniors, a historic victory over the senior class.
       </>
       ),
       images: [ASG1, ASG2, ASG3],
     },
     {
-      title: "Book Club",
+      title: "Book Club Founder",
       description: (
       <>
       Book Club is my firstborn child. I created it November of my freshman year of high school to foster a community of bookworms on campus and it has grown into a club of 138+ more than I could have ever hoped. <br /><br /> <b>Highlight:</b> Shipping our Holiday Book Drive books out to the kids who need it most.
@@ -73,7 +73,7 @@ const ActivitiesPage = () => {
       title: "Berkeley ATDP TA",
       description: (
       <>
-      Ever since I was a web design student I always thought it would be so cool to be a TA...so I became one. TAing for web design and web dev made those summers the best ever. <br /><br /> <b>Highlight:</b> Becoming besties with my all girl group or watching Stranger Things Season 4 with the other TAs on my birthday",
+      Ever since I was a web design student I always thought it would be so cool to be a TA...so I became one. TAing for web design and web dev made those summers the best ever. <br /><br /> <b>Highlight:</b> Becoming besties with my all girl group or watching Stranger Things Season 4 with the other TAs on my birthday.
       </>
       ),
       images: [ATDP1, ATDP2, ATDP3],

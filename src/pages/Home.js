@@ -13,12 +13,13 @@ function Home() {
       <div className="side-by-side">
         <img src={Kelly} width="400" height="500" alt="Kelly" />
         <p>
-          I’m a freshman at UCLA studying Mathematics of Computation from the Bay Area. My
-          interest in computer science began with a Taylor Swift fan page I built using
-          HTML/CSS, and has expanded to full-stack development and computer vision. My research 
+          I’m a freshman at UCLA studying Mathematics of Computation from the Bay Area. <br /><br />
+          My interest in computer science began with a Taylor Swift fanpage I built, and has expanded to full-stack development and computer vision. My research 
           interests include leveraging large-scale medical data
-          to train models that improve early detection of pancreatic cancer. I’m passionate
-          about creating impactful solutions—check out my Activities and Projects/Work tabs to see
+          to train models that improve early detection of pancreatic cancer. 
+          <br /><br />
+          I’m passionate
+          about creating impactful solutions—check out my Activities and Projects/Work to see
           what I’ve been working on!
           <br /><br />
           kellyjia@g.ucla.edu

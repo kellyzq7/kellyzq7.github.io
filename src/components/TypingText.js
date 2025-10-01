@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import "../styles/TypingText.css"; 
 
 const TypingText = ({ text, speed = 100 }) => {
   const [displayedText, setDisplayedText] = useState("");
@@ -14,7 +15,12 @@ const TypingText = ({ text, speed = 100 }) => {
     return () => clearInterval(interval);
   }, [text, speed]);
 
-  return <span>{displayedText}</span>;
+  return (
+    <span className="typing-container">
+      <span>{displayedText}</span>
+      <span className="cursor"></span>
+    </span>
+  );
 };
 
 export default TypingText;
