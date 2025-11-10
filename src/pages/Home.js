@@ -13,7 +13,7 @@ function Home() {
       <div className="side-by-side">
         <img src={Kelly} width="400" height="500" alt="Kelly" />
         <p>
-          I’m a freshman at UCLA studying Mathematics of Computation from the Bay Area. <br /><br />
+          I’m a freshman at UCLA studying Computer Science and Mathematics from the Bay Area. <br /><br />
           My interest in computer science began with a Taylor Swift fanpage I built, and has expanded to full-stack development and computer vision. My research 
           interests include leveraging large-scale medical data
           to train models that improve early detection of pancreatic cancer. 
